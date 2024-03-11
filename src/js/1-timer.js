@@ -39,7 +39,7 @@ const options = {
 };
 
 flatpickr("#datetime-picker", options);
-const flatpickrInput = document.querySelector(".flatpickr-mobile")
+const flatpickrInput = document.querySelector(".flatpickr-input")
 
 btnStart.addEventListener("click", () => {
     btnStart.disabled = true;
