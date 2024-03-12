@@ -61,7 +61,7 @@ function startTimer() {
     hours.textContent = addLeadingZero(fullDate.hours, 2);
     minutes.textContent = addLeadingZero(fullDate.minutes, 2);
     seconds.textContent = addLeadingZero(fullDate.seconds, 2);
-    if (differenceInMs < 1500) {
+    if (differenceInMs < 1000) {
         return false;
     }
 }
